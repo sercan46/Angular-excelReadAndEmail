@@ -1,3 +1,2 @@
-# sendwpmessageandmail-k4qb7m
+Excel dosyasından mail okuma ve toplu mail gönderme.
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/sendwpmessageandmail-k4qb7m)
