@@ -1,0 +1,23 @@
+<div>
+  <h2>
+    Toplu Whatsapp / Mail Gönderme
+  </h2>
+  <hr style='width:100vh' />
+
+  <div class="inputContainer">
+    <input  type="file" (change)="onFileChange($event)"  />
+  </div>
+
+  <br />
+  <div [ngStyle]="{'visibility':jsonXMLData.length >0 ? 'visible' : 'hidden' }" class="buttonContainer">
+    <div class="buttonDetail">
+      <button (click)="wpSendMessage()" class="wpButton">
+      Whatsapp Mesaj Gönder
+    </button>
+      <form style="padding-left:30px" method="post">
+        <input style="font-size:30px;color:white;background-color:blue;border-width:2px;border-color:white" type="button" value="Mail Gönder" (click)="sendEmail()" />
+      </form>
+    </div>
+  </div>
+  <div style="visibility:hidden" id="output"></div>
+</div>

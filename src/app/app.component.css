@@ -1,0 +1,45 @@
+p {
+  font-family: Lato;
+}
+h2 {
+  font-family: Lato;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+input {
+  color: rgb(202, 191, 212);
+}
+.buttonContainer {
+  position: absolute;
+  top: 60%;
+  left: 37%;
+  margin: -25px 0 0 -25px;
+  background-color: crimson;
+  font-weight: bold;
+}
+.wpButton {
+  background-color: green;
+  color: white;
+  border-color: white;
+  font-size: 20px;
+}
+.mailButton {
+  background-color: blue;
+  color: white;
+  border-color: black;
+}
+.inputContainer {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  margin: -25px 0 0 -25px;
+  background-color: crimson;
+  font-weight: bold;
+}
+.buttonDetail {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
