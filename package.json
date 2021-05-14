@@ -11,6 +11,7 @@
     "@angular/platform-browser-dynamic": "^8.0.0",
     "@angular/router": "^8.0.0",
     "core-js": "2",
+    "excelfolderdatatojson": "^1.0.4",
     "rxjs": "^6.5.2",
     "xlsx": "0.13.3",
     "zone.js": "^0.9.1"
